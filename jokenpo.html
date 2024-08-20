@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Jokenpo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Jokenpo</h1>
+        <div class="game">
+            <div class="player-side">
+                <h2>Você</h2>
+                <div class="choices">
+                    <img src="pedra-removebg-preview.png" id="pedra" class="choice" alt="Pedra">
+                    <img src="papel-removebg-preview.png" id="papel" class="choice" alt="Papel">
+                    <img src="tesoura-removebg-preview.png" id="tesoura" class="choice" alt="Tesoura">
+                </div>
+            </div>
+            <div class="result">
+                <div class="hand">
+                    <h2>Escolha</h2>
+                    <img id="playerChoice" src="#" alt="Sua Escolha">
+                </div>
+                <p id="message"></p>
+                <div class="hand">
+                    <h2>Computador</h2>
+                    <img id="computerChoice" src="#" alt="Escolha do Computador">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
